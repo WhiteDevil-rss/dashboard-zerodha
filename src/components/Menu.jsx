@@ -18,7 +18,9 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }}/>
+      <Link to="/">
+        <img src="ZerodhaLogo.png" style={{ width: "50px" }}/>
+      </Link>
       <div className="menus">
         <ul>
           <li>
